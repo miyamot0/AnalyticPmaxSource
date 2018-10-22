@@ -55,6 +55,11 @@ Research applying the behavioral economic demand framework is increasingly condu
 |HurshPmax       | 3.41699| 4.42331| 5.27033| 6.09176|  8.29142|
 |ObservedPmax    | 2.50000| 5.00000| 6.50000| 8.00000| 20.00000|
 
+*: Overall R2 for all series (M = 0.85, SD = 0.03)
+**: Series with R2 of .9 or greater (M = 0.92, SD = 0.01)
+
+Note: Quantile distributions for each of the unit elasticity methods.
+
 ### Table 2.
 
 
@@ -74,21 +79,31 @@ Research applying the behavioral economic demand framework is increasingly condu
 |ObservedPmax    |   0.43853|         0.43249|      1.00000|      0.43249|
 |AnalyticPmax    |   0.99693|         1.00000|      0.43249|      1.00000|
 
+Note: Spearman correlation matrix for each of the four unit elasticity methods.
+
 ### Figure 1. Demand Curve and P<sub>MAX</sub> in Log-Log Space
 
 <img src="plots/Figure_1-1.png" style="display: block; margin: auto;" />
+
+Note: These figures above illustrate the calculation of unit elasticity (PMAX) in log-log space. The left panel illustrates the form of a conventional demand curve and the right panel illustrates the specific calculations involved. As described in the right panel, a slope of -1 on the demand curve indicates that 1 log-unit increase in price equates to a -1 log-unit decrease in levels of consumption.
 
 ### Figure 2. Model Slope and Modified Loss Function
 
 <img src="plots/Figure_2-1.png" style="display: block; margin: auto;" />
 
+Note: This figure illustrates a method of solving for PMAX using the first derivative. The left panel illustrates the value of the first derivative (i.e., slope) and the right panel illustrates a modified equation (i.e., a loss function) that represents a slope value of -1 as a zero point, which can then be minimized to determine Exact PMAX at a value of 0.
+
 ### Figure 3. Box Plot and Unit Elasticity Distribution
 
 <img src="plots/Figure_3-1.png" style="display: block; margin: auto;" />
 
+Note: This figure above illustrates the range of values the range of PMAX values resulting from each type of calculation. The information provided here highlights substantial variability in the Observed method, minimal variability in the Approximate method, and exact correspondence between Derivative and Analytic methods.
+
 ### Figure 4. Comparison of Exact and Approximated P<sub>MAX</sub> Methods
 
 <img src="plots/Figure_4-1.png" style="display: block; margin: auto;" />
+
+Note: This figure illustrates relationships between methods for calculating PMAX. The Observed method, constrained to prices directly measured, varied substantially from methods that directly evaluated the slope demand curve. In contrast, the Approximate method provided a consistent approximation of PMAX and the Analytic method matched exactly with the Derivative method.
 
 ### License
 

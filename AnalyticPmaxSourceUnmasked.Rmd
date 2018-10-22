@@ -294,6 +294,11 @@ kable(meltedFrame, caption = paste("Series with R2 > 0.9 (N=", overallR2$N,
 
 ```
 
+*: Overall R2 for all series (M = 0.85, SD = 0.03)
+**: Series with R2 of .9 or greater (M = 0.92, SD = 0.01)
+
+Note: Quantile distributions for each of the unit elasticity methods.
+
 ### Table 2.
 
 ```{r, Table_2, echo=FALSE, results="asis"}
@@ -313,6 +318,8 @@ cors <- round(cor(corFrame, method = "spearman"), precision)
 
 kable(cors, caption = "Series with R2 > 0.9", format = "markdown")
 ```
+
+Note: Spearman correlation matrix for each of the four unit elasticity methods.
 
 ### Figure 1. Demand Curve and P<sub>MAX</sub> in Log-Log Space
 
@@ -452,6 +459,8 @@ arrows(log10(pMax),
 
 ```
 
+Note: These figures above illustrate the calculation of unit elasticity (PMAX) in log-log space. The left panel illustrates the form of a conventional demand curve and the right panel illustrates the specific calculations involved. As described in the right panel, a slope of -1 on the demand curve indicates that 1 log-unit increase in price equates to a -1 log-unit decrease in levels of consumption.
+
 ### Figure 2. Model Slope and Modified Loss Function
 
 ```{r Figure_2, echo=FALSE, fig.align="center", fig.height=5, fig.width=9}
@@ -530,6 +539,8 @@ text(0.2, 0.05,
      labels = c("Pmax: 15.6278"))
 ```
 
+Note: This figure illustrates a method of solving for PMAX using the first derivative. The left panel illustrates the value of the first derivative (i.e., slope) and the right panel illustrates a modified equation (i.e., a loss function) that represents a slope value of -1 as a zero point, which can then be minimized to determine Exact PMAX at a value of 0.
+
 ### Figure 3. Box Plot and Unit Elasticity Distribution
 
 ```{r, Figure_3, echo=FALSE, fig.align="center", fig.height=4, fig.width=6}
@@ -560,6 +571,8 @@ aty <- c(1, 10, 100)
 labels2 <- sapply(aty, function(i) as.expression(bquote(.(i))) )
 axis(2, at=aty, labels=labels2)
 ```
+
+Note: This figure above illustrates the range of values the range of PMAX values resulting from each type of calculation. The information provided here highlights substantial variability in the Observed method, minimal variability in the Approximate method, and exact correspondence between Derivative and Analytic methods.
 
 ### Figure 4. Comparison of Exact and Approximated P<sub>MAX</sub> Methods
 
@@ -700,6 +713,8 @@ mtext(expression(bold('Comparison of Methods for Determining P'[MAX])), outer = 
 
 mtext(expression('Derivative P'[MAX]), side=2, outer=T, at=0.5)
 ```
+
+Note: This figure illustrates relationships between methods for calculating PMAX. The Observed method, constrained to prices directly measured, varied substantially from methods that directly evaluated the slope demand curve. In contrast, the Approximate method provided a consistent approximation of PMAX and the Analytic method matched exactly with the Derivative method.
 
 ### License
 
