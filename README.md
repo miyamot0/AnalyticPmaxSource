@@ -18,6 +18,10 @@ Research applying the behavioral economic demand framework is increasingly condu
 
 [Working Sample](http://www.smallnstats.com/index.php?page=PMAX)
 
+### Introduction
+
+...
+
 ### Credits
 
 * Shawn Gilroy, Applied Behavioral Economics Laboratory, Louisiana State University [Github](https://github.com/miyamot0)
