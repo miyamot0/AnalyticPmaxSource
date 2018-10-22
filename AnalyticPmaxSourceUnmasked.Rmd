@@ -32,7 +32,7 @@ Research applying the behavioral economic demand framework is increasingly condu
 
 ### Dependencies
 
-- lambertW - Copyright Ben Bolker, port of Omega function from GSL (GPLv3). 
+- lambertW - Copyright Ben Bolker, port of Omega function from GSL (GPLv3).
 
 ```{r setup, include=FALSE, echo=FALSE}
 knitr::opts_chunk$set(echo = TRUE,
@@ -268,7 +268,7 @@ overallR2 <- passingSeriesFrame %>%
 
 kable(meltedFrame, caption = paste("All Series (N=", overallR2$N ,
                                    ", M=", overallR2$Mean, 
-                                   ", SD=", overallR2$SD, ")", sep = ""))
+                                   ", SD=", overallR2$SD, ")", sep = ""), format = "markdown")
 
 meltedFrame <- passingSeriesFrame %>%
   filter(R2 > 0.9) %>%
@@ -290,7 +290,7 @@ overallR2 <- passingSeriesFrame %>%
 
 kable(meltedFrame, caption = paste("Series with R2 > 0.9 (N=", overallR2$N,
                                    ", M=", overallR2$Mean, 
-                                   ", SD=", overallR2$SD, ")", sep = ""))
+                                   ", SD=", overallR2$SD, ")", sep = ""), format = "markdown")
 
 ```
 
@@ -303,7 +303,7 @@ corFrame <- passingSeriesFrame %>%
 
 cors <- round(cor(corFrame, method = "spearman"), precision)
 
-kable(cors, caption = "All Series")
+kable(cors, caption = "All Series", format = "markdown")
 
 corFrame <- passingSeriesFrame %>%
   filter(R2 > 0.9) %>%
@@ -311,7 +311,7 @@ corFrame <- passingSeriesFrame %>%
 
 cors <- round(cor(corFrame, method = "spearman"), precision)
 
-kable(cors, caption = "Series with R2 > 0.9")
+kable(cors, caption = "Series with R2 > 0.9", format = "markdown")
 ```
 
 ### Figure 1. Demand Curve and P<sub>MAX</sub> in Log-Log Space

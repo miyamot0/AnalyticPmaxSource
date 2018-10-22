@@ -32,55 +32,47 @@ Research applying the behavioral economic demand framework is increasingly condu
 
 ### Dependencies
 
-- lambertW - Copyright Ben Bolker, port of Omega function from GSL (GPLv3). 
+- lambertW - Copyright Ben Bolker, port of Omega function from GSL (GPLv3).
 
 
 
 ### Table 1. Distribution of Unit Elasticity Estimates
 
 
-Table: All Series (N=1000, M=0.85, SD=0.03)
-
-row                     Q0        Q1        Q2        Q3         Q4
-----------------  --------  --------  --------  --------  ---------
-AnalyticPmax       2.45655   4.46924   5.34454   6.39693   12.20367
-HurshDerivative    2.45655   4.46924   5.34454   6.39693   12.20367
-HurshPmax          2.47089   4.43210   5.27383   6.21326   10.97175
-ObservedPmax       1.50000   5.00000   6.00000   8.00000   20.00000
+|row             |      Q0|      Q1|      Q2|      Q3|       Q4|
+|:---------------|-------:|-------:|-------:|-------:|--------:|
+|AnalyticPmax    | 2.45655| 4.46924| 5.34454| 6.39693| 12.20367|
+|HurshDerivative | 2.45655| 4.46924| 5.34454| 6.39693| 12.20367|
+|HurshPmax       | 2.47089| 4.43210| 5.27383| 6.21326| 10.97175|
+|ObservedPmax    | 1.50000| 5.00000| 6.00000| 8.00000| 20.00000|
 
 
 
-Table: Series with R2 > 0.9 (N=100, M=0.92, SD=0.01)
-
-row                     Q0        Q1        Q2        Q3         Q4
-----------------  --------  --------  --------  --------  ---------
-AnalyticPmax       3.39425   4.43719   5.33661   6.17661    9.51373
-HurshDerivative    3.39425   4.43719   5.33661   6.17661    9.51373
-HurshPmax          3.41699   4.42331   5.27033   6.09176    8.29142
-ObservedPmax       2.50000   5.00000   6.50000   8.00000   20.00000
+|row             |      Q0|      Q1|      Q2|      Q3|       Q4|
+|:---------------|-------:|-------:|-------:|-------:|--------:|
+|AnalyticPmax    | 3.39425| 4.43719| 5.33661| 6.17661|  9.51373|
+|HurshDerivative | 3.39425| 4.43719| 5.33661| 6.17661|  9.51373|
+|HurshPmax       | 3.41699| 4.42331| 5.27033| 6.09176|  8.29142|
+|ObservedPmax    | 2.50000| 5.00000| 6.50000| 8.00000| 20.00000|
 
 ### Table 2.
 
 
-Table: All Series
-
-                   HurshPmax   HurshDerivative   ObservedPmax   AnalyticPmax
-----------------  ----------  ----------------  -------------  -------------
-HurshPmax            1.00000           0.99584        0.28346        0.99584
-HurshDerivative      0.99584           1.00000        0.27524        1.00000
-ObservedPmax         0.28346           0.27524        1.00000        0.27524
-AnalyticPmax         0.99584           1.00000        0.27524        1.00000
+|                | HurshPmax| HurshDerivative| ObservedPmax| AnalyticPmax|
+|:---------------|---------:|---------------:|------------:|------------:|
+|HurshPmax       |   1.00000|         0.99584|      0.28346|      0.99584|
+|HurshDerivative |   0.99584|         1.00000|      0.27524|      1.00000|
+|ObservedPmax    |   0.28346|         0.27524|      1.00000|      0.27524|
+|AnalyticPmax    |   0.99584|         1.00000|      0.27524|      1.00000|
 
 
 
-Table: Series with R2 > 0.9
-
-                   HurshPmax   HurshDerivative   ObservedPmax   AnalyticPmax
-----------------  ----------  ----------------  -------------  -------------
-HurshPmax            1.00000           0.99693        0.43853        0.99693
-HurshDerivative      0.99693           1.00000        0.43249        1.00000
-ObservedPmax         0.43853           0.43249        1.00000        0.43249
-AnalyticPmax         0.99693           1.00000        0.43249        1.00000
+|                | HurshPmax| HurshDerivative| ObservedPmax| AnalyticPmax|
+|:---------------|---------:|---------------:|------------:|------------:|
+|HurshPmax       |   1.00000|         0.99693|      0.43853|      0.99693|
+|HurshDerivative |   0.99693|         1.00000|      0.43249|      1.00000|
+|ObservedPmax    |   0.43853|         0.43249|      1.00000|      0.43249|
+|AnalyticPmax    |   0.99693|         1.00000|      0.43249|      1.00000|
 
 ### Figure 1. Demand Curve and P<sub>MAX</sub> in Log-Log Space
 
