@@ -2,7 +2,6 @@
 title: "AnalyticPmaxSource"
 author: "MASKED"
 date: "October 19, 2018"
-knit: (function(inputFile, encoding) { rmarkdown::render(inputFile, encoding = encoding, output_file = paste0(dirname(inputFile),'/README.md')) })
 output:
   html_document:
     keep_md: true
@@ -33,6 +32,12 @@ Research applying the behavioral economic demand framework is increasingly condu
 ### Dependencies
 
 - lambertW - Copyright Ben Bolker, port of Omega function from GSL (GPLv3). 
+
+### License
+
+Copyright 2018, Shawn P. Gilroy (sgilroy1@lsu.edu)/Louisiana State University - GPLv3
+
+
 
 
 
@@ -98,6 +103,3 @@ AnalyticPmax         0.99693           1.00000        0.43249        1.00000
 
 <img src="plots/Figure_4-1.png" style="display: block; margin: auto;" />
 
-### License
-
-Copyright 2018, Shawn P. Gilroy (sgilroy1@lsu.edu)/Louisiana State University - GPLv3
