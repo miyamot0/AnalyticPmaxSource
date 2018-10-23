@@ -222,6 +222,10 @@ Stein, J. S., Koffarnus, M. N., Snider, S. E., Quisenberry, A. J., & Bickel, W. 
 
 Watson, D. S., & Holman, M. A. (1977). Price theory and its uses: Boston: Houghton Mifflin.
 
+### Appendix
+
+All elements of this report are provided under the GNU General Public License, Version 3.0, by the first author. The source code necessary to generate these simulations as well as perform each of PMAX calculations is provided on the corresponding author’s Github account in the repository named PmaxEvaluation. Unless stated otherwise, all source code was written and executed within the R statistical program. These resources can be found at https://www.github.com/miyamot0/PmaxEvaluation. Additionally, a web-based tool has been developed to support the use of Analytic PMAX and requires only the fitted model parameters. This tool is based on the GNU Scientific Library, accurate with study methods to the eighth decimal place, and provided at the following location: http://www.smallnstats.com/index.php?page=PMAX.
+
 ### Credits
 
 * Shawn Gilroy, Applied Behavioral Economics Laboratory, Louisiana State University [Github](https://github.com/miyamot0)
