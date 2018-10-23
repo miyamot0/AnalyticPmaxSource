@@ -124,6 +124,103 @@ While the methods introduced here provide one means of reducing sources of error
 While the results from computer simulation are encouraging and support the Analytic approach as a “drop-in” replacement for exact (i.e., Derivative) PMAX methods, additional replication with real-world data is necessary and this is necessary for several reasons. First, additional study is necessary to understand the relative benefits of this novel approach over other methods for evaluating elasticity. For example, the differences between Approximate and Derivative/Analytic approaches may be so minor that any potential error would affect neither the inferences drawn nor results from statistical comparisons between groups. As such, in certain cases the Approximate approach may introduce such low levels of error that it essentially does 
 not impact subsequent analyses. Second, further study is necessary to determine how the limits imposed on k values in this newer method would impact real-world use. The issue of a hard lower limit may ultimately be a non-issue, as it is more often suggested to err on the side of larger k values by adding a small constant (i.e., 0.5; Kaplan, Foster, et al., 2018) and because k values less than 1 would suggestive that consumption did not change even one log10 unit (i.e., a slope of −1 was not even observed). To this effect, further research on how to most effectively construct parameter k is needed and the limits imposed by this method (i.e., W0 and −𝑒−1) may be prudent as an absolute lower limit. However, this is an empirical question to be asked along with future replication with both real and simulated usage.
 
+### References 
+
+Aston, E. R., Metrik, J., & MacKillop, J. (2015). Further validation of a marijuana purchase task. Drug & Alcohol Dependence, 152, 32-38. doi:10.1016/j.drugalcdep.2015.04.025
+
+Bickel, W. K., & Madden, G. J. (1999). A comparison of measures of relative reinforcing efficacy and behavioral economics: cigarettes and money in smokers. Behavioural Pharmacology, 10(6-7), 627-637. doi:10.1097/00008877-199911000-00009 
+
+Bickel, W. K., Marsch, L. A., & Carroll, M. E. (2000). Deconstructing relative reinforcing efficacy and situating the measures of pharmacological reinforcement with behavioral economics: a theoretical proposal. Psychopharmacology, 153(1), 44-56. 
+
+Collins, R. L., Vincent, P. C., Yu, J., Liu, L., & Epstein, L. H. (2014). A behavioral economic approach to assessing demand for marijuana. Experimental and Clinical Psychopharmacology, 22(3), 211-221. doi:10.1037/Fa0035318
+
+Epstein, L. H., Paluch, R. A., Carr, K. A., Temple, J. L., Bickel, W. K., & MacKillop, J. (2018). Reinforcing value and hypothetical behavioral economic demand for food and their relation to BMI. Eating behaviors, 29, 120-127.
+
+Epstein, L. H., & Saelens, B. E. (2000). Behavioral economics of obesity: Food intake and energy expenditure. In Reframing health behavior change with behavioral economics. (pp. 293-311). Mahwah, NJ, US: Lawrence Erlbaum Associates Publishers.
+
+Epstein, L. H., Smith, J. A., Vara, L. S., & Rodefer, J. S. (1991). Behavioral economic analysis of activity choice in obese children. Health Psychol, 10(5), 311-316.
+
+Foxall, G. R., Olivera-Castro, J., Schrezenmaier, T., & James, V. (2007). The Behavioral Economics of Brand Choice: Springer. 
+
+Foxall, G. R., Wells, V. K., Chang, S. W., & Oliveira-Castro, J. M. (2010). Substitutability and Independence: Matching Analyses of Brands and Products. Journal of Organizational Behavior Management, 30(2), 145-160. doi:10.1080/01608061003756414
+
+Gentile, N. D., Librizzi, E. H., & Martinetti, M. P. (2012). Academic constraints on alcohol consumption in college students: a behavioral economic analysis. Experimental and Clinical Psychopharmacology, 20(5), 390-399. doi:10.1037/a0029665
+
+Gilroy, S. P., Kaplan, B. A., & Leader, G. (2018). A Systematic Review of Applied Behavioral Economics in Assessments and Treatments for Individuals with Developmental Disabilities. Review Journal of Autism and Developmental Disorders. doi:10.1007/s40489-018-0136-6 
+
+Gough, B. (2009). GNU scientific library reference manual: Network Theory Ltd.
+
+Greenwald, M. K., & Hursh, S. R. (2006). Behavioral economic analysis of opioid consumption in heroin-dependent individuals: effects of unit price and pre-session drug supply. Drug & Alcohol Dependence, 85(1), 35-48. doi:10.1016/j.drugalcdep.2006.03.007
+
+Guthrie, J. F. (2017). Integrating Behavioral Economics into Nutrition Education Research and Practice. Journal of Nutrition Education and Behavior, 49(8), 700-705 e701. doi:10.1016/j.jneb.2016.09.006
+
+Henley, A. J., DiGennaro Reed, F. D., Kaplan, B. A., & Reed, D. D. (2016). Quantifying efficacy of workplace reinforcers: An application of behavioral economic demand to evaluate hypothetical work performance. Translational Issues in Psychological Science, 2(2), 174. 
+
+Henley, A. J., DiGennaro Reed, F. D., Reed, D. D., & Kaplan, B. A. (2016). A crowdsourced nickel-and-dime approach to analog OBM research: A behavioral economic framework for understanding workforce attrition. Journal of the Experimental Analysis of Behavior, 106(2), 134-144. doi:10.1002/jeab.220
+
+Hursh, S. R. (1980). Economic concepts for the analysis of behavior. Journal of the Experimental Analysis of Behavior, 34(2), 219-238. doi:10.1901/jeab.1980.34-219 
+
+Hursh, S. R. (1984). Behavioral economics. Journal of the Experimental Analysis of Behavior, 42(3), 435-452. doi:10.1901/jeab.1984.42-435
+
+Hursh, S. R. (1991). Behavioral economics of drug self-administration and drug abuse policy. Journal of the Experimental Analysis of Behavior, 56(2), 377-393. doi:10.1901/jeab.1991.56-377 
+
+Hursh, S. R. (2014). Behavioral Economics and the Analysis of Consumption and Choice. In The Wiley Blackwell Handbook of Operant and Classical Conditioning (pp. 275-305): Wiley-Blackwell.
+
+Hursh, S. R., Raslear, T. G., Bauman, R., & Black, H. (1989). The Quantitative Analysis of Economic Behavior With Laboratory Animals. In K. G. Grunert & F. Ölander (Eds.), Understanding Economic Behaviour (pp. 393–407). Dordrecht: Springer Netherlands.
+
+Hursh, S. R., & Roma, P. G. (2013). Behavioral economics and empirical public policy. Journal of the Experimental Analysis of Behavior, 99(1), 98-124. doi:10.1002/jeab.7 
+
+Hursh, S. R., & Silberberg, A. (2008). Economic demand and essential value. Psychological Review, 115(1), 186-198. doi:10.1037/0033-295X.115.1.186
+
+Johnson, M. W., & Bickel, W. K. (2006). Replacing relative reinforcing efficacy with behavioral economic demand curves. Journal of the Experimental Analysis of Behavior, 85(1), 73-93. doi:10.1901/jeab.2006.102-04 
+
+Kagel, J. H., & Winkler, R. C. (1972). Behavioral economics: areas of cooperative research between economics and applied behavioral analysis1. Journal of Applied Behavior Analysis, 5(3), 335-342. doi:10.1901/jaba.1972.5-335 
+
+Kaplan, B. A., Foster, R. N. S., Reed, D. D., Amlung, M., Murphy, J. G., & MacKillop, J. (2018). Understanding alcohol motivation using the Alcohol Purchase Task: A methodological systematic review. Drug and Alcohol Dependence. doi:10.1016/j.drugalcdep.2018.06.029 
+
+Kaplan, B. A., Gelino, B. W., & Reed, D. D. (2018). A Behavioral Economic Approach to Green Consumerism: Demand for Reusable Shopping Bags. Behavior and Social Issues, 27, 20-30.
+
+Kaplan, B. A., Gilroy, S. P., Reed, D. D., Koffarnus, M. N., & Hursh, S. R. (Under Review). The R package beezdemand: Behavioral Economic Easy Demand. Perspectives on Behavior Science.
+
+Kaplan, B. A., & Reed, D. D. (2018). Happy hour drink specials in the Alcohol Purchase Task. Experimental and Clinical Psychopharmacology, 26(2), 156-167. doi:10.1037/pha0000174
+
+Katz, J. L. (1990). Models of relative reinforcing efficacy of drugs and their predictive utility. Behavioural Pharmacology, 1, 283-301.
+
+Koffarnus, M. N., Franck, C. T., Stein, J. S., & Bickel, W. K. (2015). A modified exponential behavioral economic demand model to better describe consumption data. Experimental and Clinical Psychopharmacology, 23(6), 504-512. doi:10.1037/pha0000045 
+
+Lea, S. E. (1978). The psychology and economics of demand. Psychological Bulletin, 85, 441-466. 
+
+Lea, S. E., & Roper, T. J. (1977). Demand for food on fixed‐ratio schedules as a function of the quality of concurrently available reinforcement. Journal of the Experimental Analysis of Behavior, 27(2), 371-380. 
+
+MacKillop, J., Few, L. R., Murphy, J. G., Wier, L. M., Acker, J., Murphy, C., . . . Chaloupka, F. (2012). High-resolution behavioral economic analysis of cigarette demand to inform tax policy. Addiction, 107(12), 2191-2200. doi:10.1111/j.1360-0443.2012.03991.x
+
+MacKillop, J., Murphy, J. G., Ray, L. A., Eisenberg, D. T., Lisman, S. A., Lum, J. K., & Wilson, D. S. (2008). Further validation of a cigarette purchase task for assessing the relative reinforcing efficacy of nicotine in college smokers. Experimental and Clinical Psychopharmacology, 16(1), 57-65. doi:10.1037/1064-1297.16.1.57
+
+MacKillop, J., & Tidey, J. W. (2011). Cigarette demand and delayed reward discounting in nicotine-dependent individuals with schizophrenia and controls: an initial study. Psychopharmacology, 216(1), 91-99. doi:10.1007/s00213-011-2185-8
+
+Murphy, J. G., & MacKillop, J. (2006). Relative reinforcing efficacy of alcohol among college student drinkers. Experimental and Clinical Psychopharmacology, 14(2), 219-227. doi:10.1037/1064-1297.14.2.219
+
+Nash, J. C. (1990). Compact numerical methods for computers: linear algebra and function minimisation: CRC press. 
+
+R Core Team. (2017). R: A language and environment for statistical computing (Version 3.4.1): R Foundation for Statistical Computing.
+
+Rachlin, H., Green, L., Kagel, J. H., & Battalio, R. C. (1976). Economic demand theory and psychological studies of choice. Psychology of Learning and Motivation, 10, 129-154. doi:10.1016/S0079-7421(08)60466-1
+
+Reed, D. D., Kaplan, B. A., & Becirevic, A. (2015). Basic research on the behavioral economics of reinforcer value. In F. D. DiGennaro-Reed & D. D. Reed (Eds.), Autism Service Delivery (pp. 279-306): Springer New York.
+
+Reed, D. D., Kaplan, B. A., Becirevic, A., Roma, P. G., & Hursh, S. R. (2016). Toward quantifying the abuse liability of ultraviolet tanning: A behavioral economic approach to tanning addiction. Journal of the Experimental Analysis of Behavior, 106(1), 93-106. doi:10.1002/jeab.216
+
+Reed, D. D., Luiselli, J. K., Magnuson, J. D., Fillers, S., Vieira, S., & Rue, H. C. (2009). A comparison between traditional economical and demand curve analyses of relative reinforcer efficacy in the validation of preference assessment predictions. Developmental Neurorehabilitation, 12(3), 164-169. doi:10.1080/17518420902858983 
+
+Reed, D. D., Niileksela, C. R., & Kaplan, B. A. (2013). Behavioral economics: a tutorial for behavior analysts in practice. Behavior Analysis in Practice, 6(1), 34-54. doi:10.1007/BF03391790 
+
+Roma, P. G., Reed, D. D., DiGennaro Reed, F. D., & Hursh, S. R. (2017). Progress of and Prospects for Hypothetical Purchase Task Questionnaires in Consumer Behavior Analysis and Public Policy. The Behavior Analyst, 40(2), 329-342. doi:10.1007/s40614-017-0100-2
+
+Saelens, B. E., & Epstein, L. H. (1996). Reinforcing value of food in obese and non-obese women. Appetite, 27(1), 41-50. doi:10.1006/appe.1996.0032 
+
+Stein, J. S., Koffarnus, M. N., Snider, S. E., Quisenberry, A. J., & Bickel, W. K. (2015). Identification and management of nonsystematic purchase task data: Toward best practice. Experimental and Clinical Psychopharmacology, 23(5), 377-386. doi:10.1037/pha0000020 
+
+Watson, D. S., & Holman, M. A. (1977). Price theory and its uses: Boston: Houghton Mifflin.
 
 ### Credits
 
