@@ -8,6 +8,16 @@ output:
     keep_md: true
 ---
 
+## NOTE: This is a PrePrint of a manuscript in press in the journal of Experimental and Clinical Psychopathology
+
+## An Exact Solution for Unit Elasticity in the Exponential Model of Operant Demand
+
+Shawn P. Gilroy, PhD 
+Brent A. Kaplan, PhD 
+Derek D. Reed, PhD 
+Donald A. Hantula, PhD 
+Steven R. Hursh, PhD
+
 ### Abstract
 
 Research applying the behavioral economic demand framework is increasingly conducted across disciplines, as is research on improving the mathematical accuracy of demand metrics. At present, a variety of methods have been introduced to solve for the point of unit elasticity, or PMAX, in the Exponential model of demand; however, most of these methods vary in their potential for error due to being empirical approximations. Various methods for determining PMAX are presented here and a novel exact solution for PMAX in the Exponential model of demand is introduced. This solution provides an exact calculation of PMAX using the omega function, as algebraic solutions are not possible. This novel approach is introduced, discussed, and systematically compared to earlier methods for determining PMAX using computer simulations. Systematic comparison indicated that this new approach, an exact analytic solution for PMAX, provides results that are identical to computationally-intensive PMAX methods that directly evaluate the slope of the demand function. The exact analytic PMAX approach is reviewed, its calculations explained, and an easy-to-use web tool is provided to assist researchers in easily performing this calculation of PMAX. Implications for reducing potential sources of error are reviewed and future directions are also discussed.
